@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-left: 435px;
+}
+.container{
+    margin-top: 80px;
+    padding-left: 510px;
+}
+
+#titulo-html{
+    padding-left: 550px;
+}
+
+#video-html{
+    padding-left: 455px;
+}
+
+#link-html{
+    padding-left: 195px;
+    color: white;
+}
+
+#logo-voltar-html{
+    padding-left: 260px;
+}
+
+#video-js{
+    padding-left: 455px;
+}
+
+#titulo-js{
+    padding-left: 490px;
+}
+
+#link-js{
+    color: white;
+    padding-left: 190px;
+}
+
+#logo-voltar-js{
+    padding-left: 250px;
+}
+
+
+#titulo-hard{
+    padding-left: 450px;
+}
+
+#video-hard{
+    padding-left:400px;
+}
+
+#link-hard{
+    color: white;
+    padding-left: 580px;
+}
+
+#logo-voltar-hard{
+    padding-left: 640px;
+}
+
+
+#titulo-py{
+    padding-left: 500px;
+}
+
+#video-py{
+    padding-left: 420px;
+}
+
+#link-py{
+    color: white;
+    padding-left: 620px;
+}
+
+#logo-voltar-py{
+    padding-left: 680px;
+}

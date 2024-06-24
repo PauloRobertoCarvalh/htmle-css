@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id        
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+        }
+        .especial::before{
+            content: '[\21D2]';
+            color: brown;
+        }
+        .especial::after{
+            content: '[\21D0]';
+            color: brown;
+            
+        }
+    </style>
+</head>
+<body>
+   <h1>Personalizando links</h1> 
+   <ul>
+    <li><a href="https://github.com/PauloRobertoCarvalh" target="_blank" rel="external">Repositório GithHub</a></li>
+    <li><a href="https://youtu.be/DlIcUjkfoK0?si=d2f3jZZNFjKo6SiX" >Canal do Youtube</a></li>
+    <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" class="especial">Site do CursoemVideo</a></li>
+   </ul>
+</body>
+</html>
