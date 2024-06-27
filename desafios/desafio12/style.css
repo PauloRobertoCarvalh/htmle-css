@@ -2,11 +2,16 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
+}
+
+html, body{
+     min-height: 100vh;
 }
 
 :root{
@@ -19,15 +24,16 @@
 header{
     background-color: black;
     height: 270px;
-    padding-top: 20px;  
+     
 }
 
 header h1{
-   text-align: center;
+    text-align: center;
     font-family: var(--fonttitulo);
     color: white;
     font-size: 10vw;
-    padding-top: 60px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header a{
@@ -52,7 +58,7 @@ header p{
 
 
 
-.primeira-parte{
+.parte-branca{
     background-color: white;
     font-family: var(--fontparagrafo);
     line-height: 95px;
@@ -66,7 +72,7 @@ header p{
     background-color: white;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 5px 5px 20px 0px rgba(0, 0, 0, 0.644);
@@ -75,6 +81,7 @@ header p{
     font-size: 45px;
     font-weight: normal;
     padding: 30px;
+   
 }
 
 #primeiro-parallax article{
