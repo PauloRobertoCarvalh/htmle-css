@@ -104,6 +104,7 @@ footer{
 
 footer p{
     font-family: var(--fontpadrao);
+    font-size: 2vw;
     text-align: center;
     color: white;
     padding: 5px;
