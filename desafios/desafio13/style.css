@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(30, 28, 28, 0.477);
+    padding: 5px;
+    text-shadow: 1px 1px 1px white;
+}
+
+table{
+    width: 300px;  
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover{
+    background-color: lightblue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px black;
+}
+
