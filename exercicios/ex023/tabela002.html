@@ -34,6 +34,12 @@
             
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
         td, th{
             border: 1px solid black;
         }
@@ -65,8 +71,10 @@
     <table>
         <caption>Tabela da População de cada estado</caption>
         <thead>
-            <th scope="col">Estado</th>
-            <th scope="col" style="width: 50px; padding: 10px;">População</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px; padding: 10px;">População</th>
+            </tr>
 
         </thead>
         
@@ -221,5 +229,10 @@
 
         </tfoot>
     </table>
+
+        
 </body>
 </html>
+
+
+
